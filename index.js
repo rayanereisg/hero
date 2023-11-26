@@ -1,24 +1,24 @@
-let nomeHeroi = "Superman";
-let experienciaHeroi = 5000;
+let heroi = "Superman";
+let xp = 5000;
 
-if (experienciaHeroi < 1000) {
-    console.log(nomeHeroi + " é de nível Ferro.");
-} else if (experienciaHeroi >= 1001 && experienciaHeroi <= 2000) {
-    console.log(nomeHeroi + " é de nível Bronze.");
-} else if (experienciaHeroi >= 2001 && experienciaHeroi <= 5000) {
-    console.log(nomeHeroi + " é de nível Prata.");
-} else if (experienciaHeroi >= 6001 && experienciaHeroi <= 7000) {
-    console.log(nomeHeroi + " é de nível Ouro.");
-} else if (experienciaHeroi >= 7001 && experienciaHeroi <= 8000) {
-    console.log(nomeHeroi + " é de nível Platina.");
-} else if (experienciaHeroi >= 8001 && experienciaHeroi <= 9000) {
-    console.log(nomeHeroi + " é de nível Ascendente.");
-} else if (experienciaHeroi >= 9001 && experienciaHeroi <= 10000) {
-    console.log(nomeHeroi + " é de nível Imortal.");
-} else if (experienciaHeroi >= 10001) {
-    console.log(nomeHeroi + " é de nível Radiante.");
+if (xp < 1000) {
+    console.log(`${heroi} é de nível Ferro.`);
+} else if (xp >= 1001 && xp <= 2000) {
+    console.log(`${heroi} é de nível Bronze.`);
+} else if (xp >= 2001 && xp <= 5000) {
+    console.log(`${heroi} é de nível Prata.`);
+} else if (xp >= 6001 && xp <= 7000) {
+    console.log(`${heroi} é de nível Ouro.`);
+} else if (xp >= 7001 && xp <= 8000) {
+    console.log(`${heroi} é de nível Platina.`);
+} else if (xp >= 8001 && xp <= 9000) {
+    console.log(`${heroi} é de nível Ascendente.`);
+} else if (xp >= 9001 && xp <= 10000) {
+    console.log(`${heroi} é de nível Imortal.`);
+} else if (xp >= 10001) {
+    console.log(`${heroi} é de nível Radiante.`);
 } else {
-    console.log("Experiência inválida para o herói " + nomeHeroi);
+    console.log(`Experiência inválida para o herói ${heroi}`);
 }
 
-console.log("O Herói de nome (nomeHeroi) está no nível de (experienciaHeroi);
+console.log(`O Herói de nome ${heroi} está no nível de ${xp}`);
